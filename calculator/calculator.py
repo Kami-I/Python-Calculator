@@ -4,3 +4,6 @@ class Calculator:
     
     def subtract(self, paid, total):
         return total - paid
+    
+    def multiply(self, x, y):
+        return x * y
