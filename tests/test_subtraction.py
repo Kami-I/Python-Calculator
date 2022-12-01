@@ -19,3 +19,4 @@ class TestCalculatorSubtractionTests:
                 expected_result = 5
                 calc = Calculator()
                 result = calc.subtract(paid, total)
+                assert result == expected_result
